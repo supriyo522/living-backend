@@ -16,7 +16,7 @@ app.use('/api/auth', authRoutes);
 app.use('/api/tasks', taskRoutes);
 
 // Connect MongoDB
-mongoose.connect("mongodb+srv://supriyonag552:3TJR8zsTxnLaU6G5@cluster0.iccwafo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", {
+mongoose.connect("mongodb+srv://supriyonag552:3TJR8zsTxnLaU6G5@cluster0.iccwafo.mongodb.net/livingtaskmanager?retryWrites=true&w=majority&appName=Cluster0", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 }).then(() => {
